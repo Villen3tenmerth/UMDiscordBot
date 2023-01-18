@@ -18,17 +18,18 @@ tournaments = {}
 
 @bot.command()
 async def hello(ctx):
+    """
+    Say hello to Saskia!
+    """
     author = ctx.message.author
     await ctx.send(f'Hello, {author.mention}!')
 
 
 @bot.command()
-async def echo(ctx, arg):
-    await ctx.send(arg)
-
-
-@bot.command()
 async def tell_me_secret(ctx):
+    """
+    Only dragons should use this, not people
+    """
     global secret
     secret = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
     with open('secret.txt', 'w') as fout:
@@ -38,6 +39,9 @@ async def tell_me_secret(ctx):
 
 @bot.command()
 async def obey_my_command(ctx, arg):
+    """
+    Claim admin rights, if you are worthy
+    """
     if arg == secret:
         admins.append(ctx.author)
         await ctx.send('К вашим услугам')
@@ -47,6 +51,9 @@ async def obey_my_command(ctx, arg):
 
 @bot.command()
 async def bow(ctx):
+    """
+    Check if you have admin rights
+    """
     if ctx.author in admins:
         await ctx.send('Слушаюсь и повинуюсь')
     else:
@@ -55,6 +62,9 @@ async def bow(ctx):
 
 @bot.command()
 async def tournament(ctx, arg):
+    """
+    Start a new tournament, requires admin rights and config file
+    """
     if ctx.author not in admins:
         await ctx.send('Недостаточно прав для проведения соревнования')
         return
@@ -63,8 +73,9 @@ async def tournament(ctx, arg):
         return
 
     try:
-        tournaments[ctx.channel] = unmatched.Tournament()
-        tournaments[ctx.channel].start(arg)
+        tour = unmatched.Tournament()
+        tour.start(arg)
+        tournaments[ctx.channel] = tour
     except unmatched.UMException as err:
         await ctx.send('Ошибка при создании соревнования: ' + str(err))
         return
@@ -77,21 +88,27 @@ async def tournament(ctx, arg):
 
 @bot.command()
 async def stop_tournament(ctx):
+    """
+    Stop tournament currently running in this channel, requires admin rights
+    """
     if ctx.author not in admins:
         await ctx.send('Недостаточно прав для завершения соревнования')
         return
-    if ctx.message not in tournaments:
+    if ctx.channel not in tournaments:
         await ctx.send('В этом канале нет соревнования')
         return
 
-    name = tournaments[ctx.message].name
-    winners = '\n'.join(tournaments[ctx.message].get_winners())
-    del tournaments[ctx.message]
+    name = tournaments[ctx.channel].name
+    winners = '\n'.join(tournaments[ctx.channel].get_winners())
+    del tournaments[ctx.channel]
     await ctx.send('Соревнование ' + name + ' завершено. Слава победителям!\n' + winners)
 
 
 @bot.command()
 async def my_rank(ctx):
+    """
+    Shows your rank in current tournament
+    """
     if ctx.channel in tournaments:
         await ctx.reply('Ранг - ' + tournaments[ctx.channel].get_rank(ctx.author.name))
     else:
@@ -100,6 +117,9 @@ async def my_rank(ctx):
 
 @bot.command()
 async def what_if(ctx, arg1, arg2):
+    """
+    Find out what ranks would be if player1 defeats player2
+    """
     if ctx.channel in tournaments:
         r1, r2 = tournaments[ctx.channel].check_game(arg1, arg2)
         await ctx.reply('Будет ранг ' + r1 + ' у ' + arg1 + ' и ранг ' + r2 + ' у ' + arg2)

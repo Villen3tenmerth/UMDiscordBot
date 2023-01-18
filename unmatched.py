@@ -60,7 +60,7 @@ class Tournament:
         self.logger = None
         self.dummy = ""
 
-    def __load_state__(self):
+    def __load_state(self):
         matches = self.logger.load_results()
         for winner, loser in matches:
             if winner not in self.standings:
@@ -110,6 +110,7 @@ class Tournament:
             if "spreadsheet_id" not in cfg:
                 raise UMException("Missing spreadsheet_id")
             self.logger = SpreadsheetGameLogger(cfg["spreadsheet_id"])
+            self.__load_state()
 
     def report_match(self, match):
         if match.winner_character not in self.characters:
