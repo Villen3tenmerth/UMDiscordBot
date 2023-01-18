@@ -1,11 +1,13 @@
 import discord
 from discord.ext import commands
 from config import settings
+import os
 import re
 import unmatched
 import random
 import string
 from datetime import datetime
+from utils import ROOT_DIR
 
 bot_intents = discord.Intents.default()
 bot_intents.message_content = True
@@ -32,7 +34,8 @@ async def tell_me_secret(ctx):
     """
     global secret
     secret = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
-    with open('secret.txt', 'w') as fout:
+    path = os.path.join(ROOT_DIR, 'secret.txt')
+    with open(path, 'w') as fout:
         print(secret, file=fout)
     await ctx.send('Узнай его сам!')
 
