@@ -1,0 +1,20 @@
+{"characters": [
+  {"name": "Лунный рыцарь", "aliases": ["Лунный", "Лунтик", "муннайт", "Moon Knight", "MK"] },
+  {"name": "Роберт Малдун", "aliases": ["Малдун", "InGen", "Инжен", "Robert Muldoon", "ING"] },
+  {"name": "Дракула", "aliases": ["Dracula", "Вампир", "Кровосос", "Дракуленко", "DRA"] },
+  {"name": "Бигфут", "aliases": ["Биг", "Йети", "Bigfoot", "BIG"] },
+  {"name": "Сорвиголова", "aliases": ["Сорви", "дд", "Daredevil", "Man without fear", "DD"] },
+  {"name": "Ахиллес", "aliases": ["Ахилл", "Achilles", "ACH"] },
+  {"name": "Йенненга", "aliases": ["Йен", "Yennenga", "YEN"] },
+  {"name": "Красная Шапочка", "aliases": ["Шапочка", "Шапка", "Little Red Riding Hood", "Little Red", "RED"] },
+  {"name": "Джинн", "aliases": ["The Genie", "Genie", "Djinni", "GEN", "DJI"] },
+  {"name": "Беовульф", "aliases": ["Бео", "Beowulf", "BEO"] },
+  {"name":  "Король Артур", "aliases": ["King Arthur", "Arthur", "KAR", "ART"]}],
+"boards" : [
+  {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor"] },
+  {"name": "Sunnydale High", "aliases": ["Sunnydale", "Саннидейл", "Библиотека", "Библиотека баффи"] },
+  {"name": "Baskerville Manor", "aliases": ["Баскервиль", "поместье Басквервилей", "поместье", "Замки", "Baskerville"] },
+  {"name": "Heorot", "aliases": ["Хеорот", "Двери"] },
+  {"name": "Hell's Kitchen", "aliases": ["Адская кухня", "Кухня", "Хелс китчен", "Китчен", "Kitchen", "HK"] },
+  {"name": "Sarpedon", "aliases": ["Сарпедон", "Корабль", "Гага"]}]
+}
