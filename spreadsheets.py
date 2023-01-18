@@ -3,6 +3,8 @@ from googleapiclient.discovery import build
 from threading import RLock
 from datetime import datetime
 from pytz import timezone
+from utils import ROOT_DIR
+import os
 
 
 class SpreadsheetGameLogger:
@@ -12,7 +14,8 @@ class SpreadsheetGameLogger:
 
     def __init__(self, spreadsheet_id):
         self.spreadsheet_id = spreadsheet_id
-        self.creds = Credentials.from_service_account_file('resources/bot-key.json', scopes=self.SCOPES)
+        cred_path = os.path.join(ROOT_DIR, 'resources/bot-key.json')
+        self.creds = Credentials.from_service_account_file(cred_path, scopes=self.SCOPES)
         self.lock = RLock()
 
     def log_match(self, match, is_rated):

@@ -3,6 +3,7 @@ import json
 import os
 from rating import *
 from spreadsheets import SpreadsheetGameLogger
+from utils import ROOT_DIR
 
 
 class UMException(Exception):
@@ -24,7 +25,8 @@ def search(name, items):
 
 class Roster:
     def __init__(self):
-        with open('resources/roster.json', 'r', encoding='utf-8') as fin:
+        path = os.path.join(ROOT_DIR, 'resources/roster.json')
+        with open(path, 'r', encoding='utf-8') as fin:
             data = json.load(fin)
         self.characters = data['characters']
         self.boards = data['boards']
@@ -77,7 +79,7 @@ class Tournament:
     def start(self, name):
         self.name = name
         with self.lock:
-            cfg_file = "resources/" + name + ".json"
+            cfg_file = os.path.join(ROOT_DIR, "resources/" + name + ".json")
             if not os.path.isfile(cfg_file):
                 raise UMException("Tournament config file not found")
             with open(cfg_file, "r", encoding='utf-8') as fin:
