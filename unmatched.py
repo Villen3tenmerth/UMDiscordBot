@@ -95,7 +95,7 @@ class Tournament:
             if "boards" not in cfg:
                 raise UMException("Missing boards list")
             if cfg["boards"] == 'all':
-                self.boards = [x.name for x in ROSTER.boards]
+                self.boards = [x["name"] for x in ROSTER.boards]
             else:
                 self.boards = [ROSTER.parse_board(x) for x in cfg["boards"]]
 
@@ -111,7 +111,12 @@ class Tournament:
 
             if "spreadsheet_id" not in cfg:
                 raise UMException("Missing spreadsheet_id")
-            self.logger = SpreadsheetGameLogger(cfg["spreadsheet_id"])
+            if "log_sheet" not in cfg:
+                raise UMException("Missing log_sheet name")
+            standings_sheet = None
+            if "standings_sheet" in cfg:
+                standings_sheet = cfg["standings_sheet"]
+            self.logger = SpreadsheetGameLogger(cfg["spreadsheet_id"], cfg["log_sheet"], standings_sheet)
             self.__load_state()
 
     def report_match(self, match):
