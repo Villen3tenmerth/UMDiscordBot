@@ -1,8 +1,8 @@
 {
-  "characters" : ["GB", "SPD"],
+  "characters" : ["STR", "TES"],
   "boards" : "all",
   "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
-  "log_sheet" : "GB-SPD",
+  "log_sheet" : "STR-TES",
   "standings_sheet" : "Текущее положение",
   "rating" : "counter"
 }
