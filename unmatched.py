@@ -88,7 +88,7 @@ class Tournament:
             if "characters" not in cfg:
                 raise UMException("Missing character list")
             if cfg["characters"] == 'all':
-                self.characters = [x.name for x in ROSTER.characters]
+                self.characters = [x["name"] for x in ROSTER.characters]
             else:
                 self.characters = [ROSTER.parse_character(x) for x in cfg["characters"]]
 
