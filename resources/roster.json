@@ -41,7 +41,7 @@
   {"name": "Человек-Паук", "aliases": ["Spider-man", "Spidey", "Паук", "SPD"]},
   {"name": "Женщина-Халк", "aliases": ["She-hulk", "Shulky", "Халк", "Халкесса", "Jennifer Walter Esq.", "HUL"]},
   {"name": "Доктор Стрендж", "aliases": ["Dr. Strange", "Steven Strange", "Стивен Стрендж", "STR"]},
-  {"name": "Джилл Трент", "aliases": ["Jill Trent", "Dr. Jill Trent", "Джилл", "Science sleuth", "JT"]},
+  {"name": "Джилл Трент", "aliases": ["Jill Trent", "Dr. Jill Trent", "Джилл", "Jill", "Trent", "Трент", "Science sleuth", "JT"]},
   {"name": "Никола Тесла", "aliases": ["Nikola Tesla", "Tesla", "Тесла", "TES"]},
   {"name": "Энни Кристмас", "aliases": ["Annie Cristmas", "Энни", "Annie", "Flatboat Annie", "ANN"]},
   {"name": "Золотой Крылан", "aliases": ["Golden Bat", "Золотая летучая мышь", "Крылан", "BAT", "GB"]}],
