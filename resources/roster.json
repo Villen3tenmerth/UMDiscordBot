@@ -3,13 +3,13 @@
   {"name": "Алиса", "aliases": ["Alice", "ALI"]},
   {"name": "Синдбад", "aliases": ["Sinbad", "Мореход", "SIN"]},
   {"name": "Медуза", "aliases": ["Medusa", "Горгона", "MED"]},
-  {"name": "Бигфут", "aliases": ["Биг", "Йети", "Bigfoot", "BIG"] },
+  {"name": "Бигфут", "aliases": ["Биг", "Йети", "Bigfoot", "Robin", "BIG"] },
   {"name": "Робин Гуд", "aliases": ["Робин", "Robin Hood", "RH"] },
   {"name": "Дракула", "aliases": ["Dracula", "Граф Дракула", "DRA"] },
   {"name": "Невидимка", "aliases": ["Человек-Невидимка", "Invisible man", "IM"] },
   {"name": "Джекилл и Хайд", "aliases": ["Джекилл", "Хайд", "Доктор Джекилл", "Мистер Хайд", "Dr. Jekyll", "Mr. Hyde", "Jekyll & Hyde", "JH"] },
   {"name": "Шерлок Холмс", "aliases": ["Шерлок", "Холмс", "Sherlock", "Holmes", "Sherlock Holmes", "Бенедикт Контрпанч", "SHR"] },
-  {"name": "Красная Шапочка", "aliases": ["Шапочка", "Шапка", "Little Red Riding Hood", "Little Red", "RED"] },
+  {"name": "Красная Шапочка", "aliases": ["Шапочка", "Шапка", "Red Riding Hood", "Little Red Riding Hood", "Little Red", "RED"] },
   {"name": "Беовульф", "aliases": ["Бео", "Beowulf", "BEO"] },
   {"name": "Джинн", "aliases": ["The Genie", "Genie", "Djinni", "GEN", "DJI"] },
   {"name": "Гудини", "aliases": ["Гарри Гудини", "Houdini", "Harry Houdini", "Фокусник", "Hou"] },
@@ -35,7 +35,7 @@
   {"name": "Меченый", "aliases": ["Булзай", "Bullseye", "World's greatest assassin", "BUL"] },
   {"name": "Плащ и Кинжал", "aliases": ["Cloak & Dagger", "Cloack", "Dagger", "Плащ", "Кинжал", "CD"] },
   {"name": "Девушка-Белка", "aliases": ["Белка", "Squirrel Girl", "SQG"] },
-  {"name": "Мисс Марвел", "aliases": ["Ms. Marvel", "Камала Хан", "Kamala Khan", "MM"] },
+  {"name": "Мисс Марвел", "aliases": ["Ms. Marvel", "Марвел", "Marvel", "Камала Хан", "Kamala Khan", "MM"] },
   {"name": "Черная Пантера", "aliases": ["Пантера", "Black Panther", "Panther", "Т'Чалла", "T'Challa", "BP"] },
   {"name": "Черная Вдова", "aliases": ["Вдова", "Black Widow", "Widow", "Наташа Романова", "Natasha Romanoff", "BW"] },
   {"name": "Зимний Солдат", "aliases": ["Winter Soldier", "Баки Барнс", "Худший герой", "Зимний", "Bucky Barnes", "WS"] },
@@ -69,5 +69,5 @@
   {"name": "Sarpedon", "aliases": ["Сарпедон", "Корабль", "Гага"]},
   {"name": "Point Pleasant", "aliases": ["Mothman", "Поинт плезант"] },
   {"name": "McMinnville", "aliases": ["Martian", "Марсиане", "Fields"] },
-  {"name": "Azuchi Castle", "aliases": ["Замок Азучи", "Azuchi", "Азучи"] }]
+  {"name": "Azuchi Castle", "aliases": ["Замок Адзути", "Azuchi", "Адзути"] }]
 }
