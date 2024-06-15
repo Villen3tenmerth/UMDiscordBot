@@ -47,7 +47,11 @@
   {"name": "Энни Кристмас", "aliases": ["Annie Cristmas", "Энни", "Annie", "Flatboat Annie", "ANN"]},
   {"name": "Золотой Крылан", "aliases": ["Golden Bat", "Золотая летучая мышь", "Крылан", "Батя", "BAT", "GB"]},
   {"name": "Ода Нобунага", "aliases": ["Oda Nobunaga", "Ода", "Нобунага", "Nobunaga", "ODA"]},
-  {"name": "Томоэ Годзен", "aliases": ["Tomoe Gozen", "Tomoe", "Томоэ", "TOM"]}],
+  {"name": "Томоэ Годзен", "aliases": ["Tomoe Gozen", "Tomoe", "Томоэ", "TOM"]},
+  {"name": "Гамлет", "aliases": ["Hamlet", "HAM"]},
+  {"name": "Титания", "aliases": ["Titania", "TIT"]},
+  {"name": "Шекспир", "aliases": ["Вильям Шекспир", "Shakespeare", "William Shakespeare", "SHA"]},
+  {"name": "Вещие Сёстры", "aliases": ["Три сестры", "Ведьмы", "Wayward sisters", "Three witches", "SIS"]}],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor"] },
   {"name": "Sunnydale High", "aliases": ["Sunnydale", "Саннидейл", "Библиотека", "Библиотека баффи"] },
@@ -69,5 +73,6 @@
   {"name": "Sarpedon", "aliases": ["Сарпедон", "Корабль", "Гага"]},
   {"name": "Point Pleasant", "aliases": ["Mothman", "Поинт плезант"] },
   {"name": "McMinnville", "aliases": ["Martian", "Марсиане", "Fields"] },
-  {"name": "Azuchi Castle", "aliases": ["Замок Адзути", "Azuchi", "Адзути"] }]
+  {"name": "Azuchi Castle", "aliases": ["Замок Азучи", "Azuchi", "Азучи"] },
+  {"name": "Globe Theatre", "aliases": ["Глобус", "Театр Глобус", "Globe"] }]
 }
