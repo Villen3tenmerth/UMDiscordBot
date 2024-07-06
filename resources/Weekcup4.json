@@ -1,0 +1,8 @@
+{
+  "characters" : ["HAM", "SIS", "TIT", "SHA", "ODA", "TOM", "TES", "GB", "JT", "ANN",
+                  "STR", "HUL", "SPD", "BW", "BP", "WS", "HOU", "GEN", "CD", "MM", "SQG",
+                  "MED", "SHR", "YEN", "MK", "RED", "SWK", "GHR", "RH", "BM", "JH", "ART", "BUF"],
+  "boards" : ["Raft", "Raprtor Paddock", "Sherwood", "McMinnville", "Globe Theatre"],
+  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+  "log_sheet" : "WeekcupMajor3"
+}
