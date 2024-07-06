@@ -2,7 +2,9 @@
   "characters" : ["HAM", "SIS", "TIT", "SHA", "ODA", "TOM", "TES", "GB", "JT", "ANN",
                   "STR", "HUL", "SPD", "BW", "BP", "WS", "HOU", "GEN", "CD", "MM", "SQG",
                   "MED", "SHR", "YEN", "MK", "RED", "SWK", "GHR", "RH", "BM", "JH", "ART", "BUF"],
-  "boards" : ["Raft", "Raprtor Paddock", "Sherwood", "McMinnville", "Globe Theatre"],
+  "boards" : ["Sarpedon", "Marmoreal", "SoHo", "Baskerville", "Serwood", "Heorot", "Raptor Paddock",
+              "Trex Paddock", "Solomon's mine", "Sunnydale High", "Bronze", "Azuchi", "Point Pleasant", "McMinnville",
+              "Raft", "Hell's Kitchen", "Navy Pier", "Helicarrier", "Sanctum", "Globe", "Gardens"],
   "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
-  "log_sheet" : "WeekcupMajor3"
+  "log_sheet" : "WeekcupMajor4"
 }
