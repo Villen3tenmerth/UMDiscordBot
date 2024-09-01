@@ -1,8 +1,8 @@
 {
-  "characters" : ["BIG", "GB"],
+  "characters" : ["STR", "YEN"],
   "boards" : "all",
   "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
-  "log_sheet" : "BIG-GB",
+  "log_sheet" : "STR-YEN",
   "standings_sheet" : "Текущее положение",
   "rating" : "counter"
 }
