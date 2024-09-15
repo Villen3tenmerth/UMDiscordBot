@@ -8,6 +8,7 @@ import random
 import string
 from datetime import datetime
 from utils import ROOT_DIR
+from statistics import StatsLoader
 
 bot_intents = discord.Intents.default()
 bot_intents.message_content = True
@@ -16,6 +17,7 @@ secret = ''
 random.seed(datetime.now().timestamp())
 admins = []
 tournaments = {}
+stats_loader = StatsLoader()
 
 
 @bot.command()
@@ -61,6 +63,16 @@ async def bow(ctx):
         await ctx.send('Слушаюсь и повинуюсь')
     else:
         await ctx.send('Я не склонюсь ни перед кем!')
+
+
+@bot.command()
+async def statistics(ctx):
+    """
+    Retrieve character stats for all tournaments
+    """
+    await ctx.send('Начинаю сбор статистики')
+    stats_file = stats_loader.load_stats()
+    await ctx.send(file=discord.File(stats_file))
 
 
 @bot.command()

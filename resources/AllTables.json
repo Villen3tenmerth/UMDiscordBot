@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {"name": "Season 1",
+      "id": "1-sIfBHBMnJjqEG1M_ij_qlATKoH-GpJwWflWuO7Bjk0",
+      "sheets": ["Игры"]},
+    {"name": "Major 2023",
+      "id": "1V2sJG6rFmUdw0KZQ_Y3h9lA_D5rpse-jeidmF5SmNT0",
+      "sheets": ["Log"]},
+    {"name": "Кто сильнее",
+      "id": "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+      "sheets": ["GB-SPD", "HUL-ING", "BIG-GB", "STR-YEN", "TES-TIT"]},
+    {"name": "Weekcups",
+      "id": "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+      "sheets": ["Weekcup18", "WeekcupMajor1", "WeekcupMajor2", "WeekcupMajor3", "WeekcupMajor4",
+               "WeekcupMajor5", "WeekcupMajor6", "WeekcupMajor7", "WeekcupMajor8"]},
+    {"name": "Spring Masters 2024",
+      "id": "1GAyy1fBEQG8mw4_De9k6A3IwgwHw66oG_k7nDHRP3hg",
+      "sheets": ["Log div A", "Log div B"]},
+    {"name": "Summer Masters 2024",
+      "id": "1CHhhoNxUTy-MhpBNd0mia2L6PrY45PKR5IQll2lH7Hs",
+      "sheets": ["Log div A", "Log div B"]}
+  ]
+}

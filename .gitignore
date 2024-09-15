@@ -1,4 +1,5 @@
 secret.txt
 config.py
 /resources/bot-key.json
+/resources/stats.csv
 /.idea

@@ -55,11 +55,14 @@ class SpreadsheetGameLogger:
             sheet.values().update(spreadsheetId=self.spreadsheet_id, range=self.standings_range,
                                   valueInputOption="RAW", body=body).execute()
 
-    def load_results(self):
+    def load_results(self, get_stats=False):
         service = build('sheets', 'v4', credentials=self.creds)
 
         sheet = service.spreadsheets()
         response = sheet.values().get(spreadsheetId=self.spreadsheet_id, range=self.log_range).execute()
         rows = response.get('values', [])
 
-        return [[r[1], r[2]] for r in rows]
+        if not get_stats:
+            return [[r[1], r[2]] for r in rows]
+        else:
+            return [[r[3], r[4]] for r in rows]
