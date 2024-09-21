@@ -1,0 +1,9 @@
+{
+  "characters" : ["SHA", "HAM", "TIT", "SIS", "TOM", "ODA", "GB", "ANN", "JT", "TES",
+                "STR", "HUL", "SPD", "WS", "BP", "BW", "YEN", "ACH", "SWK", "BM",
+                "GHR", "MK", "LCG", "RAP", "MUL", "RH", "BIG", "RED", "BEO",
+                "DRA", "SAT", "GEN", "ALI"],
+  "boards" : "all",
+  "spreadsheet_id" : "1h16d3ntzu4HEyuohaJ7v-cmedUJWpg6wS6RhtenYgE4",
+  "log_sheet" : "Log Pro"
+}
