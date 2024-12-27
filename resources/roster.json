@@ -1,6 +1,6 @@
 {"characters": [
   {"name": "Король Артур", "aliases": ["King Arthur", "Arthur", "KAR", "ART"]},
-  {"name": "Алиса", "aliases": ["Alice", "ALI"]},
+  {"name": "Алиса", "aliases": ["Alice", "ALC"]},
   {"name": "Синдбад", "aliases": ["Sinbad", "Мореход", "SIN"]},
   {"name": "Медуза", "aliases": ["Medusa", "Горгона", "MED"]},
   {"name": "Бигфут", "aliases": ["Биг", "Йети", "Bigfoot", "Robin", "BIG"] },
@@ -51,7 +51,15 @@
   {"name": "Гамлет", "aliases": ["Hamlet", "Принц датский", "Doomed prince", "HAM"]},
   {"name": "Титания", "aliases": ["Titania", "Королева фей", "Queen of fairies", "TIT"]},
   {"name": "Шекспир", "aliases": ["Вильям Шекспир", "Shakespeare", "William Shakespeare", "SHA"]},
-  {"name": "Вещие Сёстры", "aliases": ["Три сестры", "Сёстры", "Ведьмы", "Три ведьмы", "Wayward sisters", "Three witches", "Sisters", "SIS"]}],
+  {"name": "Вещие Сёстры", "aliases": ["Три сестры", "Сёстры", "Ведьмы", "Три ведьмы", "Wayward sisters", "Three witches", "Sisters", "SIS"]},
+  {"name": "Геральт из Ривии", "aliases": ["Geralt", "Geralt of Rivia", "White wolf", "Butcher of Blaviken", "Геральт", "Белый волк", "Мясник из Блавикена", "GER"]},
+  {"name": "Цири", "aliases": ["Ciri", "Cirilla", "Zirael", "Цирилла", "CIR"]},
+  {"name": "Леший", "aliases": ["Leshen", "Ancient Leshen", "Woodland spirit", "Древний Леший", "LES"]},
+  {"name": "Эредин", "aliases": ["Eredin", "Eredin Breacc Glas", "Wild Hunt", "Дикая Охота", "ERE"]},
+  {"name": "Филиппа", "aliases": ["Philippa", "Philippa Eilhart", "Филиппа Эйльхарт", "PHI"]},
+  {"name": "Йеннифер и Трисс", "aliases": ["Yennefer", "Йеннифер", "Yennefer of Vengerberg", "Йеннифер из Венгерберга",
+    "Triss", "Трисс", "Triss Merigold", "Трисс Меригольд", "Трисс и Йеннифер", "Yennefer & Triss", "Triss & Yennefer", "YT"]}
+],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor"] },
   {"name": "Sunnydale High", "aliases": ["Sunnydale", "Саннидейл", "Библиотека", "Библиотека баффи"] },
@@ -74,5 +82,10 @@
   {"name": "Point Pleasant", "aliases": ["Mothman", "Мотылёк", "Поинт плезант"] },
   {"name": "McMinnville", "aliases": ["Martian", "Марсиане", "Fields"] },
   {"name": "Azuchi Castle", "aliases": ["Замок Азучи", "Azuchi", "Азучи"] },
-  {"name": "Globe Theatre", "aliases": ["Глобус", "Театр Глобус", "Globe"] }]
+  {"name": "Globe Theatre", "aliases": ["Глобус", "Театр Глобус", "Globe"] },
+  {"name": "Kaer Morhen", "aliases": ["Каэр Морхен", "Крепость старого моря", "Ведьмачья крепость"] },
+  {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige"] },
+  {"name": "Naglfar", "aliases": ["Нагльфар", "Eredin's ship", "Wild hunt ship", "Корабль Эредина", "Корабль дикой охоты"] },
+  {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] }
+]
 }

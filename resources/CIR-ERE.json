@@ -1,8 +1,8 @@
 {
-  "characters" : ["ART", "HAM"],
+  "characters" : ["CIR", "ERE"],
   "boards" : "all",
   "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
-  "log_sheet" : "ART-HAM",
+  "log_sheet" : "CIR-ERE",
   "standings_sheet" : "Текущее положение",
   "rating" : "counter"
 }
