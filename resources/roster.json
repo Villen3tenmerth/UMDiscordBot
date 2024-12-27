@@ -84,7 +84,7 @@
   {"name": "Azuchi Castle", "aliases": ["Замок Азучи", "Azuchi", "Азучи"] },
   {"name": "Globe Theatre", "aliases": ["Глобус", "Театр Глобус", "Globe"] },
   {"name": "Kaer Morhen", "aliases": ["Каэр Морхен", "Крепость старого моря", "Ведьмачья крепость"] },
-  {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige"] },
+  {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige", "Fayrlund", "Фейрланд"] },
   {"name": "Naglfar", "aliases": ["Нагльфар", "Eredin's ship", "Wild hunt ship", "Корабль Эредина", "Корабль дикой охоты"] },
   {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] }
 ]
