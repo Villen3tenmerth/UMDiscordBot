@@ -1,9 +1,0 @@
-{
-  "characters" : ["SHA", "HAM", "TIT", "SIS", "TOM", "ODA", "GB", "ANN", "JT", "TES",
-                "STR", "HUL", "SPD", "WS", "BP", "BW", "YEN", "ACH", "SWK", "BM",
-                "GHR", "MK", "LCG", "RAP", "MUL", "RH", "BIG", "RED", "BEO",
-                "DRA", "SAT", "GEN", "ALI"],
-  "boards" : "all",
-  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
-  "log_sheet" : "WeekcupMajor8"
-}
