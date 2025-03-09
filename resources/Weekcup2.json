@@ -1,0 +1,9 @@
+{
+  "characters" : "all",
+  "boards" : ["Naglfar", "Fayrlund", "Novigrad", "Kaer Morhen",
+              "Globe", "Azuchi", "MacMinnville", "Point Pleasant",
+              "Sanctum", "Raft", "Helicarrier",
+              "Sherwood", "Soho", "Solomons", "Hanging Gardens"],
+  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+  "log_sheet" : "WeekcupMajor2.2"
+}
