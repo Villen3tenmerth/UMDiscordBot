@@ -1,0 +1,10 @@
+{
+  "characters" : ["BP", "ALC", "BEO", "BM", "SPK",
+    "CIR", "SIS", "TIT", "BUL", "ING", "GEN",
+    "RED", "SIN", "SAT", "ANN", "JT", "PHI",
+    "YT", "ERE", "SHA", "LES", "MK", "TOM",
+    "GER", "HAM", "BW", "DRA", "WS", "RH"],
+  "boards" : ["Fairlund", "Sunnydale high", "Globe theatre", "Novigrad", "Sarpedon"],
+  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+  "log_sheet" : "WeekcupMajor2.4"
+}
