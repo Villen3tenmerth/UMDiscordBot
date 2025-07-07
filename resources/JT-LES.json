@@ -1,0 +1,9 @@
+{
+  "characters" : ["JT", "LES"],
+  "boards" : ["Sherwood", "Heorot", "Sunnydale", "McMinville", "TRex Paddock", "Baskerville",
+              "Helicarrier", "Hell's kitchen", "Hanging Gardens", "Naglfar", "Skellige", "Kaer Morhen", "Novigrad"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "JT-LES",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}

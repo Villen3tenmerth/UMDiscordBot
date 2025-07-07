@@ -59,7 +59,11 @@
   {"name": "Эредин", "aliases": ["Eredin", "Eredin Breacc Glas", "Wild Hunt", "Дикая Охота", "ERE"]},
   {"name": "Филиппа", "aliases": ["Philippa", "Philippa Eilhart", "Филиппа Эйльхарт", "PHI"]},
   {"name": "Йеннифер и Трисс", "aliases": ["Yennefer", "Йеннифер", "Yennefer of Vengerberg", "Йеннифер из Венгерберга", "Чародейки",
-    "Triss", "Трисс", "Triss Merigold", "Трисс Меригольд", "Трисс и Йеннифер", "Yennefer & Triss", "Triss & Yennefer", "YT"]}
+    "Triss", "Трисс", "Triss Merigold", "Трисс Меригольд", "Трисс и Йеннифер", "Yennefer & Triss", "Triss & Yennefer", "YT"]},
+  {"name": "Локи", "aliases": ["Loki", "LOK"]},
+  {"name": "Чупакабра", "aliases": ["Chupacabra", "Goat sucker", "CHU"]},
+  {"name": "Пандора", "aliases": ["Pandora", "First woman", "Первая женщина", "PAN"]},
+  {"name": "Чёрная Борода", "aliases": ["Blackbeard", "Beard", "Борода", "Эдвард Тич", "Edward Teach", "BB"]}
 ],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor"] },
@@ -87,6 +91,9 @@
   {"name": "Kaer Morhen", "aliases": ["Каэр Морхен", "Крепость старого моря", "Ведьмачья крепость"] },
   {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige", "Fayrlund", "Фейрланд"] },
   {"name": "Naglfar", "aliases": ["Нагльфар", "Eredin's ship", "Wild hunt ship", "Корабль Эредина", "Корабль дикой охоты"] },
-  {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] }
+  {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] },
+  {"name": "Venice", "aliases": ["Венеция"]},
+  {"name": "Santa's Workshop", "aliases": ["Мастерская Санты", "Мастерская Санта Клауса", "Santa Claus Workshop",
+    "Конвейеры", "Мастерская", "Workshop"]}
 ]
 }
