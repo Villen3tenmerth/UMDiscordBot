@@ -120,6 +120,18 @@ async def stop_tournament(ctx):
 
 
 @bot.command()
+async def reload(ctx):
+    """
+    Reload roster, requires admin rights
+    """
+    if ctx.author not in admins:
+        await ctx.send('Недостаточно прав для завершения соревнования')
+        return
+    unmatched.reload_roster()
+    await ctx.send('Ростер обновлен')
+
+
+@bot.command()
 async def my_rank(ctx):
     """
     Shows your rank in current tournament
@@ -147,7 +159,7 @@ def parse_game(message):
     if len(lines) < 4:
         return None
 
-    match = re.match('\\s*(?P<wm><@.?[0-9]*?>)\\s*defeated\\s*(?P<lm><@.?[0-9]*?>)', lines[0])
+    match = re.match('\\s*(?P<wm><@.?[0-9]*?>)\\s*defeated\\s*(?P<lm><@.?[0-9]*?>)', lines[0].lower())
     if match is None:
         return None
     winner_mention = match.group('wm')
@@ -164,7 +176,7 @@ def parse_game(message):
         # Should never happen but...
         return None
 
-    heroes = lines[1].split(' vs ')
+    heroes = lines[1].lower().split(' vs ')
     if len(heroes) < 2:
         return None
 

@@ -41,6 +41,11 @@ class Roster:
 ROSTER = Roster()
 
 
+def reload_roster():
+    global ROSTER
+    ROSTER = Roster()
+
+
 class Match:
     def __init__(self, winner, loser, win_char, lose_char, board, winner_first):
         self.winner = winner
@@ -85,19 +90,29 @@ class Tournament:
             with open(cfg_file, "r", encoding='utf-8') as fin:
                 cfg = json.load(fin)
 
-            if "characters" not in cfg:
+            if "characters" in cfg:
+                if cfg["characters"] == 'all':
+                    self.characters = [x["name"] for x in ROSTER.characters]
+                else:
+                    self.characters = [ROSTER.parse_character(x) for x in cfg["characters"]]
+            elif "character-bans" in cfg:
+                all_chars = set([x["name"] for x in ROSTER.characters])
+                bans = set([ROSTER.parse_character(x) for x in cfg["character-bans"]])
+                self.characters = list(all_chars - bans)
+            else:
                 raise UMException("Missing character list")
-            if cfg["characters"] == 'all':
-                self.characters = [x["name"] for x in ROSTER.characters]
-            else:
-                self.characters = [ROSTER.parse_character(x) for x in cfg["characters"]]
 
-            if "boards" not in cfg:
-                raise UMException("Missing boards list")
-            if cfg["boards"] == 'all':
-                self.boards = [x["name"] for x in ROSTER.boards]
+            if "boards" in cfg:
+                if cfg["boards"] == 'all':
+                    self.boards = [x["name"] for x in ROSTER.boards]
+                else:
+                    self.boards = [ROSTER.parse_board(x) for x in cfg["boards"]]
+            elif "board-bans" in cfg:
+                all_boards = set([x["name"] for x in ROSTER.boards])
+                bans = set([ROSTER.parse_board(x) for x in cfg["board-bans"]])
+                self.boards = list(all_boards - bans)
             else:
-                self.boards = [ROSTER.parse_board(x) for x in cfg["boards"]]
+                raise UMException("Missing boards list")
 
             if "rating" not in cfg:
                 self.rating = EmptyRankManager()
