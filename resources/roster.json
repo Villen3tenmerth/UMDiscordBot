@@ -66,12 +66,12 @@
   {"name": "Чёрная Борода", "aliases": ["Blackbeard", "Beard", "Борода", "Эдвард Тич", "Edward Teach", "BB"]}
 ],
 "boards" : [
-  {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor"] },
-  {"name": "Sunnydale High", "aliases": ["Sunnydale", "Саннидейл", "Библиотека", "Библиотека баффи"] },
+  {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor", "Splash paddock"] },
+  {"name": "Sunnydale High", "aliases": ["Sunnydale", "Саннидейл", "Библиотека", "Библиотека баффи", "Nova high"] },
   {"name": "Baskerville Manor", "aliases": ["Баскервиль", "поместье Басквервилей", "поместье", "Замки", "Baskerville"] },
   {"name": "Heorot", "aliases": ["Хеорот", "Двери"] },
   {"name": "Hell's Kitchen", "aliases": ["Адская кухня", "Кухня", "Хелс китчен", "Китчен", "Kitchen", "HK"] },
-  {"name": "T. Rex Paddock", "aliases": ["Ти-Рекс Паддок", "Ти-Рекс", "T-Rex Paddock"] },
+  {"name": "T. Rex Paddock", "aliases": ["Ти-Рекс Паддок", "Ти-Рекс", "T-Rex Paddock", "T Wrecks", "Dino funworld"] },
   {"name": "King Solomon's Mine", "aliases": ["Соломон", "Копи Соломона", "Solomon's", "Solomon's mine", "Копи царя соломона"] },
   {"name": "Sanctum Sanctorum", "aliases": ["Санктум Санкторум", "Санктум", "Санторум", "Sanctum"] },
   {"name": "Helicarrier", "aliases": ["Heli", "Хеликерриер", "Хели", "Хелликериер"] },
