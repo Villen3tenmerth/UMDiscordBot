@@ -6,6 +6,7 @@ import re
 import unmatched
 import random
 import string
+import state
 from datetime import datetime
 from utils import ROOT_DIR
 from statistics import StatsLoader
@@ -19,6 +20,20 @@ admins = []
 tournaments = {}
 stats_loader = StatsLoader()
 
+
+def load_tournaments():
+    data = state.load_state()
+    for ch_id, name in data:
+        channel = bot.get_channel(ch_id)
+        if not channel:
+            print(f'Channel {ch_id} not found')
+            continue
+        tour = unmatched.Tournament()
+        try:
+            tour.start(name)
+            tournaments[channel] = tour
+        except Exception as err:
+            print(err)
 
 @bot.command()
 async def hello(ctx):
@@ -98,6 +113,8 @@ async def tournament(ctx, arg):
         await ctx.send('Что-то не так, админ, загляни в логи')
         print(err)
         return
+
+    state.dump_state(tournaments)
     await ctx.send('Турнир ' + arg + ' начался. И пусть победит сильнейший!')
 
 
@@ -115,7 +132,9 @@ async def stop_tournament(ctx):
 
     name = tournaments[ctx.channel].name
     winners = '\n'.join(tournaments[ctx.channel].get_winners())
+
     del tournaments[ctx.channel]
+    state.dump_state(tournaments)
     await ctx.send('Соревнование ' + name + ' завершено. Слава победителям!\n' + winners)
 
 
@@ -229,5 +248,9 @@ async def on_reaction_add(reaction, user):
         return
     await reaction.message.add_reaction('\U0001F409')
 
+
+@bot.event
+async def on_ready():
+    load_tournaments()
 
 bot.run(settings['token'])
