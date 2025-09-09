@@ -94,6 +94,6 @@
   {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] },
   {"name": "Venice", "aliases": ["Венеция"]},
   {"name": "Santa's Workshop", "aliases": ["Мастерская Санты", "Мастерская Санта Клауса", "Santa Claus Workshop",
-    "Конвейеры", "Мастерская", "Workshop"]}
+    "Конвейеры", "Мастерская", "Workshop", "Santa"]}
 ]
 }

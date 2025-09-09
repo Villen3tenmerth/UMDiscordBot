@@ -1,0 +1,9 @@
+{
+  "characters" : ["BB", "CIR"],
+  "boards" : ["Santa", "Azuchi", "Raft", "Bronze", "Yukon", "Soho",
+              "Point Pleasant", "Venice", "Hanging Gardens", "Naglfar", "Globe", "Marmoreal"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "BB-LES",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
