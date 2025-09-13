@@ -1,0 +1,10 @@
+{
+  "characters" : ["SHR", "ELE", "TES", "TRX", "RED", "SWK", "CIR", "ERE", "YT",
+                  "LES", "MUL", "JT", "PAN", "TIT", "DD", "TOM", "SIN", "RAP", "BW",
+                  "LEE", "GER", "MK", "BB", "WS", "GHR", "PHI", "CHU", "LOK", "SAT",
+                  "CD", "BUL", "ANN", "GEN", "DRA", "SIS"],
+  "boards" : ["Santa", "Azuchi", "Raft", "Bronze", "Yukon", "Soho",
+              "Point Pleasant", "Venice", "Hanging Gardens", "Naglfar", "Globe", "Marmoreal"],
+  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+  "log_sheet" : "WeekcupMajor2.8"
+}
