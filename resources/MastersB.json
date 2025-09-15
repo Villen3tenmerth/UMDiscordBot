@@ -1,8 +1,0 @@
-{
-  "character-bans" : ["ACH", "SWK", "STR", "ELE", "HOU", "SHR", "TRX", "DD",
-                      "PAN", "LOK", "BB", "CHU"],
-  "boards" : ["Sherwood", "Heorot", "Sunnydale", "McMinville", "TRex Paddock", "Baskerville",
-              "Helicarrier", "Hell's kitchen", "Hanging Gardens", "Naglfar", "Skellige", "Kaer Morhen", "Novigrad"],
-  "spreadsheet_id" : "1T8ct3MJpId5Anfguy9iNYXX1v5kBqV-II_E9IXAxrRA",
-  "log_sheet" : "Log div B"
-}

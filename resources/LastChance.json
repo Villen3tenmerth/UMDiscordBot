@@ -1,0 +1,9 @@
+{
+  "characters" : ["SIN", "BW", "JT", "RAP", "LES", "CHU", "BB", "ANN", "DD", "TES",
+                  "LOK", "SIS", "GER", "MK", "RED", "TOM", "YT", "PAN", "BUL", "TIT",
+                  "DRA", "GEN", "MUL", "SAT", "WS", "PHI", "LEE", "ERE", "GHR", "CIR"],
+  "boards" : ["Santa", "Azuchi", "Raft", "Bronze", "Yukon", "Soho",
+              "Point Pleasant", "Venice", "Hanging Gardens", "Naglfar", "Globe", "Marmoreal"],
+  "spreadsheet_id" : "1jR-sFVYo2hL9yYzvL_u3ZTrNq0IkwJ87LAszXYI2SNc",
+  "log_sheet" : "Log LC"
+}

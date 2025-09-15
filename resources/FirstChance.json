@@ -1,0 +1,9 @@
+{
+  "characters" : ["SIN", "BW", "JT", "RAP", "LES", "CHU", "BB", "ANN", "DD", "TES",
+                  "LOK", "SIS", "GER", "MK", "RED", "TOM", "YT", "PAN", "BUL", "TIT",
+                  "DRA", "GEN", "MUL", "ALI", "RH", "HOU", "TRX", "STR", "ACH", "YEN"],
+  "boards" : ["Santa", "Azuchi", "Raft", "Sunnydale", "Novigrad", "McMinnville",
+              "Helicarrier", "Venice", "Soho", "Baskerville", "Globe", "Marmoreal"],
+  "spreadsheet_id" : "1jR-sFVYo2hL9yYzvL_u3ZTrNq0IkwJ87LAszXYI2SNc",
+  "log_sheet" : "Log FC"
+}
