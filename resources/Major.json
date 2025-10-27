@@ -1,0 +1,9 @@
+{
+  "characters" : ["LOK", "ACH", "YT", "ING", "SWK", "RED", "CHU", "RAP", "HUL", "GER",
+                  "PAN", "PHI", "LES", "SIS", "TOM", "CIR", "SIN", "SAT", "LCG", "ANN",
+                  "BP", "JT", "BB", "BW", "ERE", "GEN", "TIT", "WS", "MK", "DRA"],
+  "boards" : ["Santa", "Sarpedon", "Navy Pier", "Sunnydale", "Novigrad", "Heorot",
+              "Yukon", "Venice", "Hanging Gardens", "Skellige", "Kaer Morhen", "TRex Paddock"],
+  "spreadsheet_id" : "1kjwnq-kbA4hAJpaRDKQzz8ONa_QAOmpNVomWnt-LtCk",
+  "log_sheet" : "Log"
+}
