@@ -8,7 +8,7 @@
   {"name": "Дракула", "aliases": ["Dracula", "Граф Дракула", "DRA"] },
   {"name": "Невидимка", "aliases": ["Человек-Невидимка", "Invisible man", "IM"] },
   {"name": "Джекилл и Хайд", "aliases": ["Джекилл", "Хайд", "Доктор Джекилл", "Мистер Хайд", "Dr. Jekyll", "Mr. Hyde", "Jekyll & Hyde", "JH"] },
-  {"name": "Шерлок Холмс", "aliases": ["Шерлок", "Холмс", "Sherlock", "Holmes", "Sherlock Holmes", "Бенедикт Контрпанч", "SHR"] },
+  {"name": "Шерлок Холмс", "aliases": ["Шерлок", "Холмс", "Sherlock", "Holmes", "Sherlock Holmes", "Бенедикт Контрпанч", "SHE"] },
   {"name": "Красная Шапочка", "aliases": ["Шапочка", "Шапка", "Red Riding Hood", "Little Red Riding Hood", "Little Red", "RED"] },
   {"name": "Беовульф", "aliases": ["Бео", "Beowulf", "BEO"] },
   {"name": "Джинн", "aliases": ["The Genie", "Genie", "Djinni", "GEN", "DJI"] },
@@ -22,7 +22,7 @@
   {"name": "Виллоу", "aliases": ["Willow", "Самый слабый герой", "WIL"] },
   {"name": "Ангел", "aliases": ["Angel", "Самый унылый герой", "ANG"] },
   {"name": "Спайк", "aliases": ["Spike", "Самый пассивный герой", "SPK"] },
-  {"name": "Роберт Малдун", "aliases": ["Малдун", "InGen", "Инжен", "Robert Muldoon", "ING", "MUL"] },
+  {"name": "Роберт Малдун", "aliases": ["Малдун", "Muldoon", "InGen", "Инген", "Robert Muldoon", "ING", "MUL"] },
   {"name": "Рапторы", "aliases": ["Raptors", "Велоцирапторы","Динозаврики", "RAP"] },
   {"name": "Ти-Рекс", "aliases": ["T.Rex", "Тиранозавр Рекс", "Рекс", "Rex", "Большой динозавр", "TRX"] },
   {"name": "Сэттлер", "aliases": ["Элли Сэттлер", "Доктор Сэттлер", "Dr. Ellie Sattler", "Ellie Sattler", "Dr. Sattler", "Sattler", "SAT"] },
@@ -63,7 +63,14 @@
   {"name": "Локи", "aliases": ["Loki", "LOK"]},
   {"name": "Чупакабра", "aliases": ["Chupacabra", "Goat sucker", "CHU"]},
   {"name": "Пандора", "aliases": ["Pandora", "First woman", "Первая женщина", "PAN"]},
-  {"name": "Чёрная Борода", "aliases": ["Blackbeard", "Beard", "Борода", "Эдвард Тич", "Edward Teach", "BB"]}
+  {"name": "Чёрная Борода", "aliases": ["Blackbeard", "Beard", "Борода", "Эдвард Тич", "Edward Teach", "BB"]},
+  {"name": "Леонардо", "aliases": ["Leonardo", "Лео", "LEO"]},
+  {"name": "Рафаэль", "aliases": ["Raphael", "Raph", "Раф", "RPH"]},
+  {"name": "Микеланджело", "aliases": ["Микки", "Майки", "Michelangelo", "Mikey", "MIK"]},
+  {"name": "Донателло", "aliases": ["Donatello", "Donnie", "Донни", "DON"]},
+  {"name": "Шреддер", "aliases": ["Shredder", "Oroku Saki", "Ороку Саки", "SHR"]},
+  {"name": "Крэнг", "aliases": ["Krang", "KRA"]},
+  {"name": "Мухаммед Али", "aliases": ["Muhammad Ali", "Али", "Мухаммед", "Muhammad", "The greatest", "Cassius Clay", "ALI"]}
 ],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor", "Splash paddock"] },
@@ -77,7 +84,7 @@
   {"name": "Helicarrier", "aliases": ["Heli", "Хеликерриер", "Хели", "Хелликериер"] },
   {"name": "Bronze", "aliases": ["Бронза", "The Bronze", "The copper"] },
   {"name": "SoHo", "aliases": ["СоХо"] },
-  {"name": "Yukon", "aliases": ["Юкон", "Худшее поле", "Worst map ever"] },
+  {"name": "Yukon", "aliases": ["Юкон", "Юкон 1900", "Yukon 1900"] },
   {"name": "Sherwood Forest", "aliases": ["Sherwood", "Шервуд", "Леса Шервуда", "Лес Шервуд"] },
   {"name": "Marmoreal", "aliases": ["Мармореал"] },
   {"name": "Hanging Gardens", "aliases": ["Gardens", "Сады", "Висячие сады", "Второй том"] },
@@ -89,11 +96,16 @@
   {"name": "Azuchi Castle", "aliases": ["Замок Азучи", "Azuchi", "Азучи"] },
   {"name": "Globe Theatre", "aliases": ["Глобус", "Театр Глобус", "Театр", "Theatre", "Globe"] },
   {"name": "Kaer Morhen", "aliases": ["Каэр Морхен", "Крепость старого моря", "Ведьмачья крепость"] },
-  {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige", "Fayrlund", "Фейрланд"] },
+  {"name": "Fayrlund Forest", "aliases": ["Лес Фейрланд", "Скеллиге", "Skellige", "Fayrlund", "Фейрланд", "Фейрландский лес"] },
   {"name": "Naglfar", "aliases": ["Нагльфар", "Eredin's ship", "Wild hunt ship", "Корабль Эредина", "Корабль дикой охоты"] },
   {"name": "Streets of Novigrad", "aliases": ["Novigrad", "Улицы Новиграда", "Новиград"] },
   {"name": "Venice", "aliases": ["Венеция"]},
   {"name": "Santa's Workshop", "aliases": ["Мастерская Санты", "Мастерская Санта Клауса", "Santa Claus Workshop",
-    "Конвейеры", "Мастерская", "Workshop", "Santa"]}
+    "Конвейеры", "Мастерская", "Workshop", "Santa", "Санта"]},
+  {"name": "Technodrome", "aliases": ["Технодром", "Dimension X", "Измерение Х"]},
+  {"name": "New York City", "aliases": ["New York", "Нью-Йорк", "The big apple"]},
+  {"name": "Tsing Shang Monastery", "aliases": ["Tsing Shang", "Monastery", "Монастырь", "Монастырь Цин-Шань", "Цинь-Шань",
+    "Castle Peak", "Castle Peak Monastery"]},
+  {"name": "Thrilla in Manila", "aliases": ["Manila", "Манила", "Ринг", "Ring"]}
 ]
 }
