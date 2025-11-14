@@ -1,0 +1,9 @@
+{
+  "characters" : ["RPH", "TES"],
+  "boards" : ["Santa", "Sarpedon", "Navy Pier", "Sunnydale", "Novigrad", "Heorot",
+              "Yukon", "Venice", "Hanging Gardens", "Skellige", "Kaer Morhen", "TRex Paddock"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "RPH-TES",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
