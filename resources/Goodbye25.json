@@ -1,0 +1,9 @@
+{
+  "characters" : ["LEO", "RPH", "DON", "MIK", "SHR", "KRA",
+                  "ALI", "LEE", "BB", "PAN", "LOK", "CHU",
+                  "GER", "LES", "CIR", "ERE", "PHI", "YT"],
+  "boards" : ["Technodrome", "New York", "Tsing shang", "Manila", "Santa", "Venice",
+              "Novigrad", "Skellige", "Kaer Morhen", "Naglfar"],
+  "spreadsheet_id" : "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
+  "log_sheet" : "Goodbye25"
+}
