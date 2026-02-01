@@ -1,0 +1,9 @@
+{
+  "characters" : ["ALI", "ODA"],
+  "boards" : ["Santa", "Hell's kitchen", "Trex Paddock", "New york", "Heorot", "Tsing Shang",
+              "Sanctum Sanctorum", "Manila", "Hanging Gardens", "Naglfar", "Azuchi Castle", "Globe theatre"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "ALI-ODA",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}

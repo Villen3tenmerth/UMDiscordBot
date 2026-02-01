@@ -1,0 +1,9 @@
+{
+  "characters" : ["LEO", "RAPH", "MIK", "DON", "KRA", "SHR", "LEE", "ALI",
+                  "RED", "BB", "TES", "TOM", "SIN", "CHU", "YT", "JT"],
+  "boards" : ["Manila", "Technodrome", "New York", "Tsing Shang", "McMinville", "Trex Paddock"],
+  "spreadsheet_id" : "1_MPcvVSm0mPpsXjp_8fZba3imv0fuI_Il4Gn-yKre0k",
+  "log_sheet" : "Игры",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "ladder"
+}
