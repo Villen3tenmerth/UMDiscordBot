@@ -1,0 +1,9 @@
+{
+  "characters" : ["ACH", "KRA"],
+  "boards" : ["Santa", "Technodrome", "Trex Paddock", "New york", "Heorot", "Sarpedon",
+              "Bronze", "Manila", "Baskerville", "Naglfar", "Venice", "Raft"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "ACH-KRA",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
