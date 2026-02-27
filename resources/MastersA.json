@@ -1,0 +1,9 @@
+{
+  "characters" : ["LEO", "RPH", "MIK", "DON", "KRA", "SHR", "ALI", "LEE", "BB", "PAN",
+                  "LOK", "CHU", "YEN", "ACH", "RED", "GB", "TES", "PHI", "ERE", "LES",
+                  "GER", "ANN", "TOM", "DRA", "GEN", "TIT", "ING", "RAP", "MK", "BUL"],
+  "boards" : ["Tsing Shang", "Manila", "Technodrome", "New York", "Santa", "Venice",
+              "Raft", "Novigrad", "Baskerville", "Bronze", "TRex Paddock", "McMinville"],
+  "spreadsheet_id" : "1XIs-q1NpHESW7QzDICTP8GAEcGckwFTfsRd0Sqem-lQ",
+  "log_sheet" : "Log div A"
+}
