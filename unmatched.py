@@ -135,6 +135,8 @@ class Tournament:
             self.__load_state()
 
     def report_match(self, match):
+        if match.winner_character == match.loser_character:
+            raise UMException("Mirror matches are forbidden")
         if match.winner_character not in self.characters:
             raise UMException("Forbidden character: " + match.winner_character)
         if match.loser_character not in self.characters:

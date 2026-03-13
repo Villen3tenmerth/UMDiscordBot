@@ -10,6 +10,7 @@ import state
 from datetime import datetime
 from utils import ROOT_DIR
 from statistics import StatsLoader
+from threading import RLock
 
 bot_intents = discord.Intents.default()
 bot_intents.message_content = True
@@ -226,27 +227,36 @@ def check_message(message, user):
     return True
 
 
+message_locks = {}
+
+
 @bot.event
 async def on_reaction_add(reaction, user):
-    if user == reaction.message.author:
-        return
-    for r in reaction.message.reactions:
-        if r.me:
-            return
     if reaction.message.channel not in tournaments:
         return
+    if user == reaction.message.author:
+        return
 
-    try:
-        if not check_message(reaction.message, user):
+    m_id = reaction.message.id
+    lock = message_locks.setdefault(m_id, RLock())
+
+    with lock:
+        try:
+            for r in reaction.message.reactions:
+                if r.me:
+                    return
+            if not check_message(reaction.message, user):
+                return
+            await reaction.message.add_reaction('\U0001F409')
+        except unmatched.UMException as err:
+            await reaction.message.reply("Ошибка при записи матча: " + str(err))
             return
-    except unmatched.UMException as err:
-        await reaction.message.reply("Ошибка при записи матча: " + str(err))
-        return
-    except Exception as err:
-        await reaction.message.reply("Что-то не так, админ, посмотри логи")
-        print(err)
-        return
-    await reaction.message.add_reaction('\U0001F409')
+        except Exception as err:
+            await reaction.message.reply("Что-то не так, админ, посмотри логи")
+            print(err)
+            return
+        finally:
+            message_locks.pop(m_id, None)
 
 
 @bot.event
