@@ -70,7 +70,11 @@
   {"name": "Донателло", "aliases": ["Donatello", "Donnie", "Донни", "DON"]},
   {"name": "Шреддер", "aliases": ["Shredder", "Oroku Saki", "Ороку Саки", "SHR"]},
   {"name": "Крэнг", "aliases": ["Krang", "KRA"]},
-  {"name": "Мухаммед Али", "aliases": ["Muhammad Ali", "Али", "Мухаммед", "Muhammad", "The greatest", "Cassius Clay", "ALI"]}
+  {"name": "Мухаммед Али", "aliases": ["Muhammad Ali", "Али", "Мухаммед", "Muhammad", "The greatest", "Cassius Clay", "ALI"]},
+  {"name": "Джордж Вашингтон", "aliases": ["George Washington", "Washington", "Вашингтон", "Agent 711", "GW"]},
+  {"name": "Клепальщица Роузи", "aliases": ["Rosie the riveter", "Роузи", "Rosie", "Клепальщица", "Riveter", "ROS"]},
+  {"name": "Вайетт Эрп", "aliases": ["Wyatt Earp", "Вайетт", "Wyatt", "WYA"]},
+  {"name": "Джон Генри", "aliases": ["John Henry", "HEN"]}
 ],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor", "Splash paddock"] },
@@ -106,6 +110,8 @@
   {"name": "New York City", "aliases": ["New York", "Нью-Йорк", "The big apple"]},
   {"name": "Tsing Shang Monastery", "aliases": ["Tsing Shang", "Monastery", "Монастырь", "Монастырь Цин-Шань", "Цинь-Шань",
     "Castle Peak", "Castle Peak Monastery"]},
-  {"name": "Thrilla in Manila", "aliases": ["Manila", "Манила", "Ринг", "Ring"]}
+  {"name": "Thrilla in Manila", "aliases": ["Manila", "Манила", "Ринг", "Ring"]},
+  {"name": "Alamo", "aliases": ["Аламо"]},
+  {"name": "White House", "aliases": ["Белый дом"]}
 ]
 }
