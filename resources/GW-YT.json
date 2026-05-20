@@ -1,0 +1,9 @@
+{
+  "characters" : ["GW", "YT"],
+  "boards" : ["Solomon's mine", "Monastery", "Sunnydale high", "Hanging gardens", "Heorot", "White house",
+              "New York City", "Alamo", "Skellige", "Naglfar", "Marmoreal", "Soho"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "GW-YT",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}

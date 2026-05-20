@@ -74,7 +74,7 @@
   {"name": "Джордж Вашингтон", "aliases": ["George Washington", "Washington", "Вашингтон", "Agent 711", "GW"]},
   {"name": "Клепальщица Роузи", "aliases": ["Rosie the riveter", "Роузи", "Rosie", "Клепальщица", "Riveter", "ROS"]},
   {"name": "Вайетт Эрп", "aliases": ["Wyatt Earp", "Вайетт", "Wyatt", "WYA"]},
-  {"name": "Джон Генри", "aliases": ["John Henry", "HEN"]}
+  {"name": "Джон Генри", "aliases": ["John Henry", "Генри", "Henry", "HEN"]}
 ],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor", "Splash paddock"] },

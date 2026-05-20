@@ -1,9 +1,9 @@
 {
-  "characters" : ["LEO", "RPH", "MIK", "DON", "KRA", "SHR", "ALI", "LEE", "BB", "PAN",
-                  "LOK", "CHU", "YEN", "ACH", "RED", "GB", "TES", "PHI", "ERE", "LES",
-                  "GER", "ANN", "TOM", "DRA", "GEN", "TIT", "ING", "RAP", "MK", "BUL"],
-  "boards" : ["Tsing Shang", "Manila", "Technodrome", "New York", "Santa", "Venice",
-              "Raft", "Novigrad", "Baskerville", "Bronze", "TRex Paddock", "McMinville"],
-  "spreadsheet_id" : "1XIs-q1NpHESW7QzDICTP8GAEcGckwFTfsRd0Sqem-lQ",
+  "characters" : ["DRA", "WYA", "ANN", "HUL", "LEE", "BW", "SWK", "GW", "CD", "KRA",
+                  "ALC", "ALI", "PAN", "SIS", "RH", "BP", "MIK", "DD", "YT", "HEN",
+                  "SIN", "LES", "RED", "ROS", "HOU", "LEO", "SHE", "SHR", "GEN", "TIT"],
+  "boards" : ["Solomon's mine", "Monastery", "Sunnydale high", "Hanging gardens", "Heorot", "White house",
+              "New York City", "Alamo", "Skellige", "Naglfar", "Marmoreal", "Soho"],
+  "spreadsheet_id" : "1I15LL219O2K5evGAthJpPMd0t5amGCAdM9sELhxv7do",
   "log_sheet" : "Log div B"
 }

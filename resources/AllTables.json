@@ -13,7 +13,7 @@
       "id": "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
       "sheets": ["GB-SPD", "HUL-ING", "BIG-GB", "STR-YEN", "TES-TIT", "ART-HAM", "CIR-ERE", "HUL-YT",
                 "BP-GER", "JT-LES", "BB-CIR", "RPH-TES", "DON-SHR", "GER-LEO", "PAN-TIT", "ALI-ODA",
-                "ACH-KRA"]},
+                "ACH-KRA", "GW-YT"]},
     {"name": "Weekcups",
       "id": "1rGE4mqbKu73AckpmH8OZeB9A6X1X85-LGc0VrVothFg",
       "comment": "Skip 2.4 & 3.2, fan format",
@@ -48,6 +48,9 @@
       "sheets": ["Log"]},
     {"name": "Spring Masters 2026",
       "id": "1XIs-q1NpHESW7QzDICTP8GAEcGckwFTfsRd0Sqem-lQ",
+      "sheets": ["Log div A", "Log div B"]},
+    {"name": "Summer Masters 2026",
+      "id": "1I15LL219O2K5evGAthJpPMd0t5amGCAdM9sELhxv7do",
       "sheets": ["Log div A", "Log div B"]}
   ]
 }
