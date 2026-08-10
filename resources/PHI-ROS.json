@@ -1,0 +1,9 @@
+{
+  "characters" : ["PHI", "ROS"],
+  "boards" : ["Sarpedon", "Helicarrier", "Sherwood", "Azuchi castle", "Novigrad", "Venice",
+              "Globe Theatre", "Alamo", "Kaer Morhen", "Raptor Paddock", "Santa Workshop", "Point Pleasant"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "PHI-ROS",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
