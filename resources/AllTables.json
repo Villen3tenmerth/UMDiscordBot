@@ -55,6 +55,9 @@
       "sheets": ["Log div A", "Log div B"]},
     {"name": "Summer Masters 2026",
       "id": "1I15LL219O2K5evGAthJpPMd0t5amGCAdM9sELhxv7do",
-      "sheets": ["Log div A", "Log div B"]}
+      "sheets": ["Log div A", "Log div B"]},
+    {"name": "Last Chance 2026",
+      "id": "11S2J_6O5EwogC0DSDjDskqZf9fIyc9IOGljDN3_FJy0",
+      "sheets": ["Log LC", "Log FC"]}
   ]
 }

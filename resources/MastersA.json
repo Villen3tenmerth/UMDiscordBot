@@ -1,9 +1,0 @@
-{
-  "characters" : ["DRA", "WYA", "ANN", "HUL", "LEE", "BW", "SWK", "GW", "CD", "KRA",
-                  "ALC", "ALI", "PAN", "SIS", "RH", "BP", "MIK", "DD", "YT", "HEN",
-                  "SIN", "LES", "RED", "ROS", "HOU", "LEO", "SHE", "SHR", "GEN", "TIT"],
-  "boards" : ["Solomon's mine", "Monastery", "Sunnydale high", "Hanging gardens", "Heorot", "White house",
-              "New York City", "Alamo", "Skellige", "Naglfar", "Marmoreal", "Soho"],
-  "spreadsheet_id" : "1I15LL219O2K5evGAthJpPMd0t5amGCAdM9sELhxv7do",
-  "log_sheet" : "Log div A"
-}
