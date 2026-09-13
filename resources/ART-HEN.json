@@ -1,0 +1,9 @@
+{
+  "characters" : ["ART", "HEN"],
+  "boards" : ["Hell's Kitchen", "Sunnydale High", "Heorot", "Skellige", "Technodrome", "Azuchi castle",
+              "White House", "New York City", "Monastery", "Naglfar", "Raft", "TRex Paddock"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "ART-HEN",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
