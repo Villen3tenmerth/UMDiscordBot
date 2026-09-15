@@ -1,4 +1,5 @@
-discord.py==2.1.0
+aiohttp==3.14.3
+discord.py==2.7.1
 google_api_python_client==2.73.0
 protobuf==4.21.12
 python_Levenshtein==0.20.9
