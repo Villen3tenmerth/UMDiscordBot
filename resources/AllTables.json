@@ -58,6 +58,9 @@
       "sheets": ["Log div A", "Log div B"]},
     {"name": "Last Chance 2026",
       "id": "11S2J_6O5EwogC0DSDjDskqZf9fIyc9IOGljDN3_FJy0",
-      "sheets": ["Log LC", "Log FC"]}
+      "sheets": ["Log LC", "Log FC"]},
+    {"name": "Major 2026",
+      "id": "1tvIlCAfJETlKLku8tBlYdgFKCKCMPs-RDVmSysP-Od8",
+      "sheets": ["Log"]}
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "characters" : ["CIR", "JT", "LEO", "BB", "SHR", "TIT", "ALI", "BUL", "ROS", "STR",
+                  "HEN", "DON", "MK", "WYA", "GER", "GHR", "GW", "RPH", "ERE", "GB",
+                  "LCG", "YT", "ACH", "RED", "LES", "LOK", "RAP", "HUL", "TOM", "ING"],
+  "boards" : ["Sanctum Sanctorum", "Yukon", "White House", "Bronze", "Monastery", "Raft",
+              "Technodrome", "Skellige", "McMinville", "Point Pleasant", "Manila", "Naglfar"],
+  "spreadsheet_id" : "1tvIlCAfJETlKLku8tBlYdgFKCKCMPs-RDVmSysP-Od8",
+  "log_sheet" : "Log"
+}

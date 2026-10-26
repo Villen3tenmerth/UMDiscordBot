@@ -3,7 +3,7 @@
   {"name": "Алиса", "aliases": ["Alice", "ALC"]},
   {"name": "Синдбад", "aliases": ["Sinbad", "Мореход", "SIN"]},
   {"name": "Медуза", "aliases": ["Medusa", "Горгона", "MED"]},
-  {"name": "Бигфут", "aliases": ["Биг", "Йети", "Bigfoot", "Robin", "BIG"] },
+  {"name": "Бигфут", "aliases": ["Bigfoot", "BIG"] },
   {"name": "Робин Гуд", "aliases": ["Робин", "Robin Hood", "Robin", "RH"] },
   {"name": "Дракула", "aliases": ["Dracula", "Граф Дракула", "DRA"] },
   {"name": "Невидимка", "aliases": ["Человек-Невидимка", "Invisible man", "IM"] },
@@ -74,7 +74,11 @@
   {"name": "Джордж Вашингтон", "aliases": ["George Washington", "Washington", "Вашингтон", "Agent 711", "GW"]},
   {"name": "Клепальщица Роузи", "aliases": ["Rosie the riveter", "Роузи", "Rosie", "Клепальщица", "Riveter", "ROS"]},
   {"name": "Вайетт Эрп", "aliases": ["Wyatt Earp", "Вайетт", "Wyatt", "Earp", "Эрп", "WYA"]},
-  {"name": "Джон Генри", "aliases": ["John Henry", "Генри", "Henry", "HEN"]}
+  {"name": "Джон Генри", "aliases": ["John Henry", "Генри", "Henry", "HEN"]},
+  {"name": "Хеллбой", "aliases": ["Hellboy", "Anung Un Rama", "Адский мальчик", "HB"]},
+  {"name": "Лиз Шерман", "aliases": ["Liz Sherman", "Лиза", "Шерман", "Sherman", "LIZ"]},
+  {"name": "Баба Яга", "aliases": ["Baba Yaga", "Яга", "Henry", "YAG"]},
+  {"name": "Эйб Сапиен", "aliases": ["Abe sapien", "Abraham Sapien", "Langdon Everett Caul", "Эйб", "ABE"]}
 ],
 "boards" : [
   {"name": "Raptor Paddock", "aliases": ["Рапторы", "Загон рапоторов", "Раптор Паддок", "Raptor", "Splash paddock"] },
@@ -112,6 +116,8 @@
     "Castle Peak", "Castle Peak Monastery"]},
   {"name": "Thrilla in Manila", "aliases": ["Manila", "Манила", "Ринг", "Ring"]},
   {"name": "Alamo", "aliases": ["Аламо"]},
-  {"name": "White House", "aliases": ["Белый дом"]}
+  {"name": "White House", "aliases": ["Белый дом"]},
+  {"name": "BPRD Headquarters", "aliases": ["BPRD", "BPRD HQ", "Штаб-квартира BPRD", "Штаб BPRD"]},
+  {"name": "Pandemonium", "aliases": ["Пандемониум"]}
 ]
 }
