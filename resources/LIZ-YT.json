@@ -1,0 +1,9 @@
+{
+  "characters" : ["LIZ", "YT"],
+  "boards" : ["BPRD HQ", "Sunnydale High", "Heorot", "Pandemonium", "Kaer Morhen", "Manila",
+              "Novigrad", "Sarpedon", "Point Pleasant", "Naglfar", "Venice", "Sanctum Sanctorum"],
+  "spreadsheet_id" : "1H9Q04_8Z_1LXA_JW1suxr3ww4sRJhBxP5wVlZqmyQzU",
+  "log_sheet" : "LIZ-YT",
+  "standings_sheet" : "Текущее положение",
+  "rating" : "counter"
+}
